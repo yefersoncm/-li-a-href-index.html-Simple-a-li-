@@ -45,8 +45,8 @@ function getGastos(){
     ${nombreGasto}
     <span class="badge bg-primary rounded-pill">$ ${formatMoneyNumber(gastos[i].valorGasto)}</span>
   </li>`;
-    totalPresupuestoView.innerHTML = `Presupuesto <span class="badge bg-primary rounded-pill">$ ${formatMoneyNumber(3100000)}</span>`;
-    presupuestoRestanteView.innerHTML = `Presupuesto Restante <span id="pillPresupuesto" class="bordered badge rounded-pill">$ ${formatMoneyNumber(3100000-presupuestoRestante())}</span>`;
+    totalPresupuestoView.innerHTML = `Presupuesto <span class="badge bg-primary rounded-pill">$ ${formatMoneyNumber(5000000)}</span>`;
+    presupuestoRestanteView.innerHTML = `Presupuesto Restante <span id="pillPresupuesto" class="bordered badge rounded-pill">$ ${formatMoneyNumber(5000000-presupuestoRestante())}</span>`;
     colorEstadoPresupuesto();
   }
 }
